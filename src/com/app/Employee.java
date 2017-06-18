@@ -3,7 +3,7 @@ package com.app;
 public class Employee {
 
 	private int empId;
-	private String empName;
+	private double empSal;
 
 	public int getEmpId() {
 		return empId;
@@ -13,11 +13,11 @@ public class Employee {
 		this.empId = empId;
 	}
 
-	public String getEmpName() {
-		return empName;
+	public double getEmpSal() {
+		return empSal;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+	public void setEmpSal(double empSal) {
+		this.empSal = empSal;
 	}
 }
